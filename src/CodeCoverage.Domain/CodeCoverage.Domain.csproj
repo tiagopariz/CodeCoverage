@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="Entities\City.cs" />
     <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

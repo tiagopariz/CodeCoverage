@@ -38,6 +38,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Entities\StateTests.cs" />
     <Compile Include="Entities\PersonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
