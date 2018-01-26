@@ -4,7 +4,19 @@
 
 var target = Argument("target", "Default");
 
+Task("BuildProject")
+    .Does(() =>
+    {
+        MSBuild("./src/CodeCoverage.Domain.Tests/CodeCoverage.Domain.csproj",
+            new MSBuildSettings {
+                Verbosity = Verbosity.Minimal,
+                Configuration = "Debug"
+            }
+        );
+    });
+
 Task("BuildTest")
+    .IsDependentOn("BuildProject")
     .Does(() =>
     {
         MSBuild("./tests/CodeCoverage.Domain.Tests/CodeCoverage.Domain.Tests.csproj",
@@ -23,7 +35,7 @@ Task("OpenCover")
         {
             Register = "user",
             SkipAutoProps = true,
-            ArgumentCustomization = args => args.Append("-coverbytest:*Tests.dll").Append("-mergebyhash")
+            ArgumentCustomization = args => args.Append("-coverbytest:*.Tests.dll").Append("-mergebyhash")
         };
 
         var outputFile = new FilePath("./GeneratedReports/CodeCoverageReport.xml");

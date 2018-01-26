@@ -13,5 +13,12 @@ namespace CodeCoverage.Domain.Tests.Entities
             var sut = new Person(Guid.NewGuid(), "Test name");
             Assert.AreEqual("Test name", sut.Name);
         }
+
+        [Test]
+        public void VerifyId()
+        {
+            var sut = new Person(Guid.NewGuid(), "Test name");
+            Assert.AreNotEqual(Guid.Empty, sut.Id);
+        }
     }
 }

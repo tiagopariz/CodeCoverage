@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+  <Summary numSequencePoints="18" visitedSequencePoints="13" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="72.22" branchCoverage="75" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="2" numClasses="3" visitedMethods="3" numMethods="4" />
   <Modules>
     <Module skippedDueTo="Filter" hash="DD-4A-21-58-15-61-00-47-63-11-60-F6-AC-8D-42-15-1F-03-22-6E">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
@@ -80,10 +80,10 @@
       <ModuleName>System.Core</ModuleName>
       <Classes />
     </Module>
-    <Module hash="73-A0-BD-36-99-EE-D6-CC-1B-A0-A2-4C-EB-F6-51-F4-B8-F6-9E-AA">
-      <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+    <Module hash="28-DA-9E-D9-79-7F-7E-B2-B0-9A-29-F9-A1-60-DD-A5-47-F9-36-BC">
+      <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
       <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\CodeCoverage.Domain.Tests.dll</ModulePath>
-      <ModuleTime>2018-01-26T18:55:17.4285369Z</ModuleTime>
+      <ModuleTime>2018-01-26T19:35:13.0306611Z</ModuleTime>
       <ModuleName>CodeCoverage.Domain.Tests</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\Entities\PersonTests.cs" />
@@ -95,7 +95,7 @@
           <Methods />
         </Class>
         <Class>
-          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
           <FullName>CodeCoverage.Domain.Tests.Entities.PersonTests</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
@@ -132,28 +132,64 @@
                 </TrackedMethodRefs>
               </MethodPoint>
             </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void CodeCoverage.Domain.Tests.Entities.PersonTests::VerifyId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="5" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="6" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="63" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="7" ordinal="2" offset="17" sl="21" sc="13" el="21" ec="52" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="8" ordinal="3" offset="44" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="5" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663298</MetadataToken>
+              <MetadataToken>100663299</MetadataToken>
               <Name>System.Void CodeCoverage.Domain.Tests.Entities.PersonTests::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="1" uspid="5" ordinal="0" offset="0" />
+              <MethodPoint vc="1" uspid="9" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
       </Classes>
       <TrackedMethods>
         <TrackedMethod uid="1" token="100663297" name="System.Void CodeCoverage.Domain.Tests.Entities.PersonTests::VerifyName()" strategy="NUnitTest" />
+        <TrackedMethod uid="2" token="100663298" name="System.Void CodeCoverage.Domain.Tests.Entities.PersonTests::VerifyId()" strategy="NUnitTest" />
       </TrackedMethods>
     </Module>
-    <Module hash="91-FA-F1-62-10-39-0D-B3-69-D5-96-15-AC-BB-37-09-27-15-D8-6C">
-      <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+    <Module hash="02-EE-65-04-91-80-89-71-B8-CF-74-4A-86-75-02-1F-5C-FA-54-51">
+      <Summary numSequencePoints="10" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
       <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\CodeCoverage.Domain.dll</ModulePath>
-      <ModuleTime>2018-01-26T18:29:30.0153823Z</ModuleTime>
+      <ModuleTime>2018-01-26T19:35:12.0210841Z</ModuleTime>
       <ModuleName>CodeCoverage.Domain</ModuleName>
       <Files>
-        <File uid="3" fullPath="C:\GitHub\CodeCoverage\src\CodeCoverage.Domain\Entities\Person.cs" />
+        <File uid="3" fullPath="C:\GitHub\CodeCoverage\src\CodeCoverage.Domain\Entities\City.cs" />
+        <File uid="4" fullPath="C:\GitHub\CodeCoverage\src\CodeCoverage.Domain\Entities\Person.cs" />
       </Files>
       <Classes>
         <Class>
@@ -162,58 +198,99 @@
           <Methods />
         </Class>
         <Class>
-          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
-          <FullName>CodeCoverage.Domain.Entities.Person</FullName>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>CodeCoverage.Domain.Entities.City</FullName>
           <Methods>
             <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <MetadataToken>100663298</MetadataToken>
-              <Name>System.Guid CodeCoverage.Domain.Entities.Person::get_Id()</Name>
+              <Name>System.Guid CodeCoverage.Domain.Entities.City::get_Id()</Name>
               <FileRef uid="3" />
               <SequencePoints />
               <BranchPoints />
             </Method>
             <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <MetadataToken>100663299</MetadataToken>
-              <Name>System.String CodeCoverage.Domain.Entities.Person::get_Name()</Name>
+              <Name>System.String CodeCoverage.Domain.Entities.City::get_Name()</Name>
               <FileRef uid="3" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void CodeCoverage.Domain.Entities.City::.ctor(System.Guid,System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="42" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="11" ordinal="1" offset="7" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="12" ordinal="2" offset="8" sl="9" sc="13" el="9" ec="21" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="13" ordinal="3" offset="15" sl="10" sc="13" el="10" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="14" ordinal="4" offset="22" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="10" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="42" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CodeCoverage.Domain.Entities.Person</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Guid CodeCoverage.Domain.Entities.Person::get_Id()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.String CodeCoverage.Domain.Entities.Person::get_Name()</Name>
+              <FileRef uid="4" />
               <SequencePoints />
               <BranchPoints />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663297</MetadataToken>
+              <MetadataToken>100663300</MetadataToken>
               <Name>System.Void CodeCoverage.Domain.Entities.Person::.ctor(System.Guid,System.String)</Name>
-              <FileRef uid="3" />
+              <FileRef uid="4" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="6" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="44" bec="0" bev="0" fileid="3">
+                <SequencePoint vc="2" uspid="15" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="44" bec="0" bev="0" fileid="4">
                   <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
                     <TrackedMethodRef uid="1" vc="1" />
                   </TrackedMethodRefs>
                 </SequencePoint>
-                <SequencePoint vc="1" uspid="7" ordinal="1" offset="7" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3">
+                <SequencePoint vc="2" uspid="16" ordinal="1" offset="7" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="4">
                   <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
                     <TrackedMethodRef uid="1" vc="1" />
                   </TrackedMethodRefs>
                 </SequencePoint>
-                <SequencePoint vc="1" uspid="8" ordinal="2" offset="8" sl="9" sc="13" el="9" ec="21" bec="0" bev="0" fileid="3">
+                <SequencePoint vc="2" uspid="17" ordinal="2" offset="8" sl="9" sc="13" el="9" ec="21" bec="0" bev="0" fileid="4">
                   <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
                     <TrackedMethodRef uid="1" vc="1" />
                   </TrackedMethodRefs>
                 </SequencePoint>
-                <SequencePoint vc="1" uspid="9" ordinal="3" offset="15" sl="10" sc="13" el="10" ec="25" bec="0" bev="0" fileid="3">
+                <SequencePoint vc="2" uspid="18" ordinal="3" offset="15" sl="10" sc="13" el="10" ec="25" bec="0" bev="0" fileid="4">
                   <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
                     <TrackedMethodRef uid="1" vc="1" />
                   </TrackedMethodRefs>
                 </SequencePoint>
-                <SequencePoint vc="1" uspid="10" ordinal="4" offset="22" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="3">
+                <SequencePoint vc="2" uspid="19" ordinal="4" offset="22" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="4">
                   <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
                     <TrackedMethodRef uid="1" vc="1" />
                   </TrackedMethodRefs>
                 </SequencePoint>
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="6" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="44" bec="0" bev="0" fileid="3">
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="15" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="44" bec="0" bev="0" fileid="4">
                 <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
                   <TrackedMethodRef uid="1" vc="1" />
                 </TrackedMethodRefs>
               </MethodPoint>
@@ -221,6 +298,12 @@
           </Methods>
         </Class>
       </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="1B-AE-C2-76-9D-2A-1A-E1-82-F0-BE-A5-E5-E9-C6-CF-98-96-FA-46">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pt-BR_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2017-10-07T12:37:19.92381Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
     </Module>
   </Modules>
 </CoverageSession>

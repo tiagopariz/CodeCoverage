@@ -321,31 +321,37 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartDatadda4215e4bba4dfbabc0a5f37ed94ebf = {
+var historyChartDatacd9c046d3f954151bdb4fd61e2e1f8cd = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>26/01/2018 - 17:36:31</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/5)<br />Total lines: 16']
+};
+
+var historyChartData8c95876f1c264f20b75b21f94491549f = {
     "series" : [[100]],
     "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (5/5)<br />Total lines: 16']
 };
 
-var historyChartData18ecec3ca79a47148040afc3995adc6e = {
-    "series" : [[100]],
-    "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
+var historyChartDataeeb9f0942fb346529242beeb3f6c02ee = {
+    "series" : [[100,100]],
+    "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17','<h3>26/01/2018 - 17:28:55</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 24']
 };
 
-var historyChartDatadb7363e53c7c4772ae74e05f3227a243 = {
-    "series" : [[100]],
-    "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (9/9)<br />Total lines: 33']
+var historyChartData7e89f7ff3f9344d388c848d9adbaa0f1 = {
+    "series" : [[100,100,72.2]],
+    "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (9/9)<br />Total lines: 33','<h3>26/01/2018 - 17:28:55</h3><br /><span class="linecoverage"></span> Line coverage: 100% (13/13)<br />Total lines: 40','<h3>26/01/2018 - 17:36:31</h3><br /><span class="linecoverage"></span> Line coverage: 72.2% (13/18)<br />Total lines: 56']
 };
 
 var assemblies = [
   {
     "name": "CodeCoverage.Domain",
     "classes": [
+      { "name": "CodeCoverage.Domain.Entities.City", "reportPath": "CodeCoverage.Domain_City.htm", "coveredLines": 0, "uncoveredLines": 5, "coverableLines": 5, "totalLines": 16, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
       { "name": "CodeCoverage.Domain.Entities.Person", "reportPath": "CodeCoverage.Domain_Person.htm", "coveredLines": 5, "uncoveredLines": 0, "coverableLines": 5, "totalLines": 16, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
     ]},
   {
     "name": "CodeCoverage.Domain.Tests",
     "classes": [
-      { "name": "CodeCoverage.Domain.Tests.Entities.PersonTests", "reportPath": "CodeCoverage.Domain.Tests_PersonTests.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 17, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
+      { "name": "CodeCoverage.Domain.Tests.Entities.PersonTests", "reportPath": "CodeCoverage.Domain.Tests_PersonTests.htm", "coveredLines": 8, "uncoveredLines": 0, "coverableLines": 8, "totalLines": 24, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100,100], "branchCoverageHistory": [] },
     ]},
 ];
 
