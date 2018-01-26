@@ -7,7 +7,7 @@ var target = Argument("target", "Default");
 Task("BuildProject")
     .Does(() =>
     {
-        MSBuild("./src/CodeCoverage.Domain.Tests/CodeCoverage.Domain.csproj",
+        MSBuild("./src/CodeCoverage.Domain/CodeCoverage.Domain.csproj",
             new MSBuildSettings {
                 Verbosity = Verbosity.Minimal,
                 Configuration = "Debug"
