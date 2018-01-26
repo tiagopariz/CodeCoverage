@@ -299,11 +299,5 @@
         </Class>
       </Classes>
     </Module>
-    <Module skippedDueTo="Filter" hash="1B-AE-C2-76-9D-2A-1A-E1-82-F0-BE-A5-E5-E9-C6-CF-98-96-FA-46">
-      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pt-BR_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
-      <ModuleTime>2017-10-07T12:37:19.92381Z</ModuleTime>
-      <ModuleName>mscorlib.resources</ModuleName>
-      <Classes />
-    </Module>
   </Modules>
 </CoverageSession>

@@ -321,22 +321,22 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartDatacd9c046d3f954151bdb4fd61e2e1f8cd = {
+var historyChartDataed4e00fb314a47128ae3bbee1e278cc1 = {
     "series" : [[0]],
     "tooltips" : ['<h3>26/01/2018 - 17:36:31</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/5)<br />Total lines: 16']
 };
 
-var historyChartData8c95876f1c264f20b75b21f94491549f = {
+var historyChartData4647d3b9bd8a4cc498abf9800a3f282b = {
     "series" : [[100]],
     "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (5/5)<br />Total lines: 16']
 };
 
-var historyChartDataeeb9f0942fb346529242beeb3f6c02ee = {
+var historyChartData672758c5adec498ca039df35217e0c59 = {
     "series" : [[100,100]],
     "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17','<h3>26/01/2018 - 17:28:55</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 24']
 };
 
-var historyChartData7e89f7ff3f9344d388c848d9adbaa0f1 = {
+var historyChartData1fbce7f8ffce4630a484bc137a0df4fc = {
     "series" : [[100,100,72.2]],
     "tooltips" : ['<h3>26/01/2018 - 17:13:06</h3><br /><span class="linecoverage"></span> Line coverage: 100% (9/9)<br />Total lines: 33','<h3>26/01/2018 - 17:28:55</h3><br /><span class="linecoverage"></span> Line coverage: 100% (13/13)<br />Total lines: 40','<h3>26/01/2018 - 17:36:31</h3><br /><span class="linecoverage"></span> Line coverage: 72.2% (13/18)<br />Total lines: 56']
 };
