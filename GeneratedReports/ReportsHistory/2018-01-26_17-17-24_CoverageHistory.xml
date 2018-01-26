@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2018-01-26_17-17-24" tag="">
+  <assembly name="CodeCoverage.Domain">
+    <class name="CodeCoverage.Domain.Entities.Person" coveredlines="5" coverablelines="5" totallines="16" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CodeCoverage.Domain.Tests">
+    <class name="CodeCoverage.Domain.Tests.Entities.PersonTests" coveredlines="4" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

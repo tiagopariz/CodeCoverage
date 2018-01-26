@@ -1,9 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoverage.Prompt", "src\CodeCoverage.Prompt\CodeCoverage.Prompt.csproj", "{D2405190-4041-4C6C-B386-A705155EFC41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F22DB0BE-229E-4D23-90B3-068AED46EFC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3CC86983-C8D2-4D79-B67D-FC2EE7A87D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoverage.Domain.Tests", "tests\CodeCoverage.Domain.Tests\CodeCoverage.Domain.Tests.csproj", "{E53DC172-1B66-4571-8B2E-9A94D2D60D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5C5499B7-8EB0-4342-A647-113BC99B7839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71C77899-E69F-4103-865B-2331C13369B9}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoverage.Domain", "src\CodeCoverage.Domain\CodeCoverage.Domain.csproj", "{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +30,22 @@ Global
 		{D2405190-4041-4C6C-B386-A705155EFC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2405190-4041-4C6C-B386-A705155EFC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2405190-4041-4C6C-B386-A705155EFC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53DC172-1B66-4571-8B2E-9A94D2D60D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53DC172-1B66-4571-8B2E-9A94D2D60D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53DC172-1B66-4571-8B2E-9A94D2D60D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53DC172-1B66-4571-8B2E-9A94D2D60D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2405190-4041-4C6C-B386-A705155EFC41} = {F22DB0BE-229E-4D23-90B3-068AED46EFC8}
+		{E53DC172-1B66-4571-8B2E-9A94D2D60D0C} = {5C5499B7-8EB0-4342-A647-113BC99B7839}
+		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8} = {3CC86983-C8D2-4D79-B67D-FC2EE7A87D56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C22E78A-1BBA-49B4-8BDA-50AD24FD43C2}
