@@ -4,23 +4,30 @@ namespace CodeCoverage.Domain.Entities
 {
     public class Person
     {
-        public Person(Guid id, string name, Guid? stateId = null, Guid? cityId = null)
+        public Person(Guid id,
+                      string name,
+                      Guid? cityId,
+                      Guid? stateId,
+                      City city,
+                      State state)
         {
             Id = id;
             Name = name;
-            StateId = stateId;
             CityId = cityId;
+            StateId = stateId;
+            City = city;
+            State = state;
         }
 
         public Guid Id { get; }
         public string Name { get; }
-        
+        public Guid? CityId { get; }
+        public Guid? StateId { get; set; }
+
         #region Relationships
 
-        public Guid? CityId { get; }
-        public virtual City City { get; set; }
-        public Guid? StateId { get; set; }
-        public virtual State State { get; set; }
+        public virtual City City { get; }
+        public virtual State State { get; }
 
         #endregion
 

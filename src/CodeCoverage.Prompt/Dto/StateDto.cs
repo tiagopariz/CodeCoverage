@@ -1,28 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CodeCoverage.Domain.Entities
+namespace CodeCoverage.Prompt.Dto
 {
-    public class City
+    public class StateDto
     {
-        public City(Guid id,
-                    string name,
-                    Guid stateId,
-                    State state)
+        public StateDto(Guid id,
+                        string name,
+                        IEnumerable<PersonDto> people)
         {
             Id = id;
             Name = name;
-            StateId = stateId;
-            State = state;
+            People = people;
         }
 
         public Guid Id { get; }
         public string Name { get; }
-        public Guid StateId { get; }
 
         #region Relationships
 
-        public virtual State State { get; }
+        public virtual IEnumerable<object> People { get; }
 
         #endregion
 
