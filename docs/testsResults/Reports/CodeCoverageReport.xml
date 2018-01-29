@@ -68,22 +68,28 @@
       <ModuleName>nunit-agent</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="A7-9F-41-2F-47-0F-3E-C7-DD-99-9E-73-7D-AF-41-93-23-DC-2B-18">
-      <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\nunit.framework.dll</ModulePath>
-      <ModuleTime>2017-11-10T15:00:24Z</ModuleTime>
-      <ModuleName>nunit.framework</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="4A-F4-16-E3-B7-42-DD-D3-EE-AC-F2-25-BE-F3-D2-88-B2-F6-A0-2F">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
       <ModuleTime>2017-10-20T05:08:33.5184446Z</ModuleTime>
       <ModuleName>System.Core</ModuleName>
       <Classes />
     </Module>
-    <Module hash="49-12-D5-D2-E7-A8-D5-21-4E-BA-BB-B1-6E-1E-62-F6-08-64-3F-E2">
+    <Module skippedDueTo="Filter" hash="1B-AE-C2-76-9D-2A-1A-E1-82-F0-BE-A5-E5-E9-C6-CF-98-96-FA-46">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pt-BR_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2017-10-07T12:37:19.92381Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A7-9F-41-2F-47-0F-3E-C7-DD-99-9E-73-7D-AF-41-93-23-DC-2B-18">
+      <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2017-11-10T15:00:24Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="BA-4B-D3-19-4E-EA-C9-56-A6-E8-9A-53-3E-3D-B1-30-2A-7C-41-A5">
       <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="3" numMethods="3" />
       <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\CodeCoverage.Domain.Tests.dll</ModulePath>
-      <ModuleTime>2018-01-29T19:46:38.5270188Z</ModuleTime>
+      <ModuleTime>2018-01-29T21:52:12.9293884Z</ModuleTime>
       <ModuleName>CodeCoverage.Domain.Tests</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\Entities\StateTests.cs" />
@@ -232,10 +238,10 @@
         <TrackedMethod uid="3" token="100663300" name="System.Void CodeCoverage.Domain.Tests.Entities.PersonTests::VerifyId()" strategy="NUnitTest" />
       </TrackedMethods>
     </Module>
-    <Module hash="90-6F-CE-70-45-B8-4B-FF-A2-A4-E4-AA-CA-5C-9E-D1-77-B5-72-49">
+    <Module hash="11-C7-21-75-B1-DA-A7-FC-EC-68-23-57-98-54-4A-15-39-CE-8D-6B">
       <Summary numSequencePoints="30" visitedSequencePoints="14" numBranchPoints="6" visitedBranchPoints="2" sequenceCoverage="46.67" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="2" numClasses="3" visitedMethods="2" numMethods="6" />
       <ModulePath>C:\GitHub\CodeCoverage\tests\CodeCoverage.Domain.Tests\bin\Debug\CodeCoverage.Domain.dll</ModulePath>
-      <ModuleTime>2018-01-29T19:01:02.1533002Z</ModuleTime>
+      <ModuleTime>2018-01-29T21:52:05.3846113Z</ModuleTime>
       <ModuleName>CodeCoverage.Domain</ModuleName>
       <Files>
         <File uid="5" fullPath="C:\GitHub\CodeCoverage\src\CodeCoverage.Domain\Entities\City.cs" />
@@ -522,6 +528,12 @@
           </Methods>
         </Class>
       </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="13-19-BE-0E-DD-C3-0E-95-85-B6-CF-D4-6D-44-AD-1D-82-FA-5E-23">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.resources\v4.0_4.0.0.0_pt-BR_b77a5c561934e089\System.resources.dll</ModulePath>
+      <ModuleTime>2017-10-07T12:37:20.4551476Z</ModuleTime>
+      <ModuleName>System.resources</ModuleName>
+      <Classes />
     </Module>
   </Modules>
 </CoverageSession>

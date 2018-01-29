@@ -321,32 +321,32 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartData08e108c2ba6f454bb25601de0de83405 = {
+var historyChartData92564d1fb24a4cec901ce0175373249f = {
     "series" : [[0]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/13)<br />Total lines: 33']
 };
 
-var historyChartDataf6107efe2d154b138072acc136c565d1 = {
+var historyChartDatae744ebd85b924a808aa5b65aa5d6ce74 = {
     "series" : [[82.3]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 82.3% (14/17)<br />Total lines: 39']
 };
 
-var historyChartDatabcc676e0ab664e0e9218117522f731da = {
+var historyChartDatac3850d57508c4ff3b5aff3a4c604efe3 = {
     "series" : [[66.6]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 66.6% (6/9)<br />Total lines: 22']
 };
 
-var historyChartData6b499d8e9c784422ab4aba106e9b6f77 = {
+var historyChartData336393fc53f946f481f31c66a896cdb7 = {
     "series" : [[100]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 24']
 };
 
-var historyChartData5d3664ffd1314cbeb25154a64797cab2 = {
+var historyChartData66cc27b996374011984ed41fb7ce2c69 = {
     "series" : [[100]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
 };
 
-var historyChartDatabd4aeefb3f5a4459b4fdd9c0b2fd7976 = {
+var historyChartData2e0864a15c454ae1aa2f8f3b078d5ce2 = {
     "series" : [[62.7]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 62.7% (32/51)<br />Total lines: 135']
 };
