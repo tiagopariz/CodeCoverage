@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodeCoverage.Domain.Entities
 {
@@ -12,6 +13,12 @@ namespace CodeCoverage.Domain.Entities
 
         public Guid Id { get; }
         public string Name { get; }
+
+        #region Relationships
+
+        public virtual IEnumerable<Person> Person { get; set; }
+
+        #endregion
 
         public override string ToString()
         {

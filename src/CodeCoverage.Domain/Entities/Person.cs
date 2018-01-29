@@ -14,7 +14,19 @@ namespace CodeCoverage.Domain.Entities
 
         public Guid Id { get; }
         public string Name { get; }
-        public Guid? StateId { get; }
+        
+        #region Relationships
+
         public Guid? CityId { get; }
+        public virtual City City { get; set; }
+        public Guid? StateId { get; set; }
+        public virtual State State { get; set; }
+
+        #endregion
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }
