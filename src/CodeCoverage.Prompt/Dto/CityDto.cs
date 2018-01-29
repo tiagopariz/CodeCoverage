@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CodeCoverage.Prompt.Dto
 {
@@ -8,14 +7,12 @@ namespace CodeCoverage.Prompt.Dto
         public CityDto(Guid id,
                        string name,
                        Guid stateId,
-                       StateDto stateDto,
-                       IEnumerable<PersonDto> people)
+                       StateDto stateDto)
         {
             Id = id;
             Name = name;
             StateId = stateId;
             State = stateDto;
-            People = people;
         }
 
         public Guid Id { get; }
@@ -25,7 +22,6 @@ namespace CodeCoverage.Prompt.Dto
         #region Relationships
 
         public virtual StateDto State { get; }
-        public virtual IEnumerable<PersonDto> People { get; }
 
         #endregion
 

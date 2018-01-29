@@ -12,8 +12,8 @@ namespace CodeCoverage.Prompt
 
         private static void Main()
         {
-            var state = new State(Guid.NewGuid(), "RS", null);
-            var city = new City(Guid.NewGuid(), "Porto Alegre", state.Id, state, null);
+            var state = new State(Guid.NewGuid(), "RS");
+            var city = new City(Guid.NewGuid(), "Porto Alegre", state.Id, state);
             var person = new Person(Guid.NewGuid(), "Tiago", city.Id, state.Id, city, state);
         }
 
@@ -21,7 +21,8 @@ namespace CodeCoverage.Prompt
                               City city,
                               State state)
         {
-            stateDto = new StateDto(state.Id, state.Name, null);
+            stateDto = new StateDto(state.Id, state.Name);
+            cityDto = new CityDto(city.Id, city.Name, city.StateId, stateDto);
         }
     }
 }

@@ -41,6 +41,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CodeCoverage.Domain\CodeCoverage.Domain.csproj">
+      <Project>{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}</Project>
+      <Name>CodeCoverage.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
