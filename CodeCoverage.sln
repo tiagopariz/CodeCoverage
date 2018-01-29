@@ -19,6 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9BFEEB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DD3BE56D-B216-4A53-9720-DD23EAE2507E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{651E6FAA-931D-4CBE-B394-CAA46E64F3D8}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoverage.Prompt.Tests", "tests\CodeCoverage.Prompt.Tests\CodeCoverage.Prompt.Tests.csproj", "{3EE3597B-774F-4935-97D8-BD2D04756961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +44,10 @@ Global
 		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE3597B-774F-4935-97D8-BD2D04756961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE3597B-774F-4935-97D8-BD2D04756961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE3597B-774F-4935-97D8-BD2D04756961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE3597B-774F-4935-97D8-BD2D04756961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +58,7 @@ Global
 		{0BF603FE-1E70-4FFB-AE91-455FD611EFF8} = {3CC86983-C8D2-4D79-B67D-FC2EE7A87D56}
 		{9BFEEB78-52BF-446B-B303-6E7B3069900A} = {5C5499B7-8EB0-4342-A647-113BC99B7839}
 		{DD3BE56D-B216-4A53-9720-DD23EAE2507E} = {5C5499B7-8EB0-4342-A647-113BC99B7839}
+		{3EE3597B-774F-4935-97D8-BD2D04756961} = {DD3BE56D-B216-4A53-9720-DD23EAE2507E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C22E78A-1BBA-49B4-8BDA-50AD24FD43C2}

@@ -4,31 +4,37 @@
 
 var target = Argument("target", "Default");
 
-Task("BuildProject")
+Task("BuildProjects")
     .Does(() =>
     {
-        MSBuild("./src/CodeCoverage.Domain/CodeCoverage.Domain.csproj",
-            new MSBuildSettings {
-                Verbosity = Verbosity.Minimal,
-                Configuration = "Debug"
-            }
-        );
+        foreach(var project in GetFiles("./src/**/*.csproj"))
+        {
+            MSBuild(project.GetDirectory().FullPath,
+                new MSBuildSettings {
+                    Verbosity = Verbosity.Minimal,
+                    Configuration = "Debug"
+                }
+            );
+        }
     });
 
-Task("BuildTest")
-    .IsDependentOn("BuildProject")
+Task("BuildTests")
+    .IsDependentOn("BuildProjects")
     .Does(() =>
     {
-        MSBuild("./tests/CodeCoverage.Domain.Tests/CodeCoverage.Domain.Tests.csproj",
-            new MSBuildSettings {
-                Verbosity = Verbosity.Minimal,
-                Configuration = "Debug"
-            }
-        );
+        foreach(var project in GetFiles("./tests/**/*.csproj"))
+        {
+            MSBuild(project.GetDirectory().FullPath,
+                new MSBuildSettings {
+                    Verbosity = Verbosity.Minimal,
+                    Configuration = "Debug"
+                }
+            );
+        }
     });
 
 Task("OpenCover")
-    .IsDependentOn("BuildTest")
+    .IsDependentOn("BuildTests")
     .Does(() =>
     {
         var openCoverSettings = new OpenCoverSettings()
@@ -38,10 +44,10 @@ Task("OpenCover")
             ArgumentCustomization = args => args.Append("-coverbytest:*.Tests.dll").Append("-mergebyhash")
         };
 
-        var outputFile = new FilePath("./GeneratedReports/CodeCoverageReport.xml");
+        var outputFile = new FilePath("./docs/testsResults/Reports/CodeCoverageReport.xml");
 
         OpenCover(tool => {
-            var testAssemblies = GetFiles("./tests/CodeCoverage.Domain.Tests/bin/Debug/CodeCoverage.Domain.Tests.dll");
+            var testAssemblies = GetFiles("./tests/**/bin/Debug/*.Tests.dll");
             tool.NUnit3(testAssemblies);
             },
             outputFile,
@@ -56,10 +62,12 @@ Task("ReportGenerator")
     .Does(() =>{
         var reportGeneratorSettings = new ReportGeneratorSettings()
         {
-            HistoryDirectory = new DirectoryPath("./GeneratedReports/ReportsHistory")
+            HistoryDirectory = new DirectoryPath("./docs/testsResults/Reports/ReportsHistory")
         };
 
-        ReportGenerator("./GeneratedReports/CodeCoverageReport.xml", "./GeneratedReports/ReportGeneratorOutput", reportGeneratorSettings);
+        ReportGenerator("./docs/testsResults/Reports/CodeCoverageReport.xml", 
+                        "./docs/testsResults/Reports/ReportGeneratorOutput",
+                        reportGeneratorSettings);
     });
 
 Task("Default")
@@ -67,7 +75,7 @@ Task("Default")
     .Does(() => {
         if (IsRunningOnWindows())
         {
-            var reportFilePath = ".\\GeneratedReports\\ReportGeneratorOutput\\index.htm";
+            var reportFilePath = ".\\docs\\testsResults\\Reports\\ReportGeneratorOutput\\index.htm";
 
             StartProcess("explorer", reportFilePath);
         }
