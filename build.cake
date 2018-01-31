@@ -22,9 +22,9 @@ Task("BuildTests")
     .IsDependentOn("BuildProjects")
     .Does(() =>
     {
-        foreach(var project in GetFiles("./tests/**/*.csproj"))
+        foreach(var test in GetFiles("./tests/**/*.csproj"))
         {
-            MSBuild(project.GetDirectory().FullPath,
+            MSBuild(test.GetDirectory().FullPath,
                 new MSBuildSettings {
                     Verbosity = Verbosity.Minimal,
                     Configuration = "Debug"

@@ -321,34 +321,59 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartData92564d1fb24a4cec901ce0175373249f = {
+var historyChartData19580cd1028246b0a3853362feb8adb4 = {
     "series" : [[0]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/13)<br />Total lines: 33']
 };
 
-var historyChartDatae744ebd85b924a808aa5b65aa5d6ce74 = {
+var historyChartDatad38c73ea4f7c42e1a4071074651a0e4d = {
     "series" : [[82.3]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 82.3% (14/17)<br />Total lines: 39']
 };
 
-var historyChartDatac3850d57508c4ff3b5aff3a4c604efe3 = {
+var historyChartData5826e49ddd4646a89b983ab61865ec67 = {
     "series" : [[66.6]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 66.6% (6/9)<br />Total lines: 22']
 };
 
-var historyChartData336393fc53f946f481f31c66a896cdb7 = {
+var historyChartData5237f4e793da43359caeb2e0ef583a57 = {
     "series" : [[100]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 24']
 };
 
-var historyChartData66cc27b996374011984ed41fb7ce2c69 = {
+var historyChartData1b51e2c48d0f45b796e0a321a9740717 = {
     "series" : [[100]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
 };
 
-var historyChartData2e0864a15c454ae1aa2f8f3b078d5ce2 = {
-    "series" : [[62.7]],
-    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 62.7% (32/51)<br />Total lines: 135']
+var historyChartData0a2970200f034b70ac96f2255b8f2e85 = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/13)<br />Total lines: 33']
+};
+
+var historyChartData0bbdfa32a164459ca6609adf5d4ceecd = {
+    "series" : [[82.3]],
+    "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 82.3% (14/17)<br />Total lines: 39']
+};
+
+var historyChartDatab4f1483fc5a141ce8e85d26908df3240 = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/9)<br />Total lines: 22']
+};
+
+var historyChartDataafaff83725944e0b9ef7742872f70365 = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/15)<br />Total lines: 36']
+};
+
+var historyChartDatae6d37c28f11f4d868c3f8ee7948d3de3 = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>31/01/2018 - 10:45:57</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
+};
+
+var historyChartData873e8a4724da4430ab421aae8b9b8079 = {
+    "series" : [[62.7,65.4,45.8]],
+    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 62.7% (32/51)<br />Total lines: 135','<h3>31/01/2018 - 10:45:57</h3><br /><span class="linecoverage"></span> Line coverage: 65.4% (36/55)<br />Total lines: 152','<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 45.8% (50/109)<br />Total lines: 282']
 };
 
 var assemblies = [
@@ -364,6 +389,19 @@ var assemblies = [
     "classes": [
       { "name": "CodeCoverage.Domain.Tests.Entities.PersonTests", "reportPath": "CodeCoverage.Domain.Tests_PersonTests.htm", "coveredLines": 8, "uncoveredLines": 0, "coverableLines": 8, "totalLines": 24, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
       { "name": "CodeCoverage.Domain.Tests.Entities.StateTests", "reportPath": "CodeCoverage.Domain.Tests_StateTests.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 17, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
+    ]},
+  {
+    "name": "CodeCoverage.Prompt",
+    "classes": [
+      { "name": "CodeCoverage.Prompt.Dto.CityDto", "reportPath": "CodeCoverage.Prompt_CityDto.htm", "coveredLines": 0, "uncoveredLines": 13, "coverableLines": 13, "totalLines": 33, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
+      { "name": "CodeCoverage.Prompt.Dto.PersonDto", "reportPath": "CodeCoverage.Prompt_PersonDto.htm", "coveredLines": 14, "uncoveredLines": 3, "coverableLines": 17, "totalLines": 39, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [82.3], "branchCoverageHistory": [] },
+      { "name": "CodeCoverage.Prompt.Dto.StateDto", "reportPath": "CodeCoverage.Prompt_StateDto.htm", "coveredLines": 0, "uncoveredLines": 9, "coverableLines": 9, "totalLines": 22, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
+      { "name": "CodeCoverage.Prompt.Program", "reportPath": "CodeCoverage.Prompt_Program.htm", "coveredLines": 0, "uncoveredLines": 15, "coverableLines": 15, "totalLines": 36, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
+    ]},
+  {
+    "name": "CodeCoverage.Prompt.Tests",
+    "classes": [
+      { "name": "CodeCoverage.Prompt.Tests.Dto.PersonDtoTests", "reportPath": "CodeCoverage.Prompt.Tests_PersonDtoTests.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 17, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
     ]},
 ];
 

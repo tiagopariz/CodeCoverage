@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2018-01-31_10-45-57" tag="">
+  <assembly name="CodeCoverage.Domain">
+    <class name="CodeCoverage.Domain.Entities.City" coveredlines="0" coverablelines="13" totallines="33" coveredbranches="0" totalbranches="0" />
+    <class name="CodeCoverage.Domain.Entities.Person" coveredlines="14" coverablelines="17" totallines="39" coveredbranches="0" totalbranches="0" />
+    <class name="CodeCoverage.Domain.Entities.State" coveredlines="6" coverablelines="9" totallines="22" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CodeCoverage.Domain.Tests">
+    <class name="CodeCoverage.Domain.Tests.Entities.PersonTests" coveredlines="8" coverablelines="8" totallines="24" coveredbranches="0" totalbranches="0" />
+    <class name="CodeCoverage.Domain.Tests.Entities.StateTests" coveredlines="4" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CodeCoverage.Prompt.Tests">
+    <class name="CodeCoverage.Prompt.Tests.Dto.PersonDtoTests" coveredlines="4" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
