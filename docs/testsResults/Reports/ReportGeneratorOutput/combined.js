@@ -321,59 +321,44 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartData19580cd1028246b0a3853362feb8adb4 = {
+var historyChartDatafcd2ceee70ee43cca5c91285f85df092 = {
     "series" : [[0]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/13)<br />Total lines: 33']
 };
 
-var historyChartDatad38c73ea4f7c42e1a4071074651a0e4d = {
+var historyChartDataba58b56368f14e5d878672ca89ac32cf = {
     "series" : [[82.3]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 82.3% (14/17)<br />Total lines: 39']
 };
 
-var historyChartData5826e49ddd4646a89b983ab61865ec67 = {
+var historyChartData624f3b88d2714fe88a362f088a00ba8a = {
     "series" : [[66.6]],
     "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 66.6% (6/9)<br />Total lines: 22']
 };
 
-var historyChartData5237f4e793da43359caeb2e0ef583a57 = {
-    "series" : [[100]],
-    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 24']
-};
-
-var historyChartData1b51e2c48d0f45b796e0a321a9740717 = {
-    "series" : [[100]],
-    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
-};
-
-var historyChartData0a2970200f034b70ac96f2255b8f2e85 = {
+var historyChartData977d21da071f4b7b87c000e9eaf23eca = {
     "series" : [[0]],
     "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/13)<br />Total lines: 33']
 };
 
-var historyChartData0bbdfa32a164459ca6609adf5d4ceecd = {
+var historyChartDatae977c13e70f44b4395e8cdcd89fe71e2 = {
     "series" : [[82.3]],
     "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 82.3% (14/17)<br />Total lines: 39']
 };
 
-var historyChartDatab4f1483fc5a141ce8e85d26908df3240 = {
+var historyChartData00b28215f3674aad80e11bb02265c55e = {
     "series" : [[0]],
     "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/9)<br />Total lines: 22']
 };
 
-var historyChartDataafaff83725944e0b9ef7742872f70365 = {
+var historyChartDataba78863b9d2648039699716d4f09a1ca = {
     "series" : [[0]],
     "tooltips" : ['<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/15)<br />Total lines: 36']
 };
 
-var historyChartDatae6d37c28f11f4d868c3f8ee7948d3de3 = {
-    "series" : [[100]],
-    "tooltips" : ['<h3>31/01/2018 - 10:45:57</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 17']
-};
-
-var historyChartData873e8a4724da4430ab421aae8b9b8079 = {
-    "series" : [[62.7,65.4,45.8]],
-    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 62.7% (32/51)<br />Total lines: 135','<h3>31/01/2018 - 10:45:57</h3><br /><span class="linecoverage"></span> Line coverage: 65.4% (36/55)<br />Total lines: 152','<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 45.8% (50/109)<br />Total lines: 282']
+var historyChartData0f9729ecdef24965877d7cd1d6a0ff32 = {
+    "series" : [[62.7,65.4,45.8,36.5]],
+    "tooltips" : ['<h3>29/01/2018 - 19:27:58</h3><br /><span class="linecoverage"></span> Line coverage: 62.7% (32/51)<br />Total lines: 135','<h3>31/01/2018 - 10:45:57</h3><br /><span class="linecoverage"></span> Line coverage: 65.4% (36/55)<br />Total lines: 152','<h3>31/01/2018 - 11:06:08</h3><br /><span class="linecoverage"></span> Line coverage: 45.8% (50/109)<br />Total lines: 282','<h3>31/01/2018 - 12:28:37</h3><br /><span class="linecoverage"></span> Line coverage: 36.5% (34/93)<br />Total lines: 224']
 };
 
 var assemblies = [
@@ -385,23 +370,12 @@ var assemblies = [
       { "name": "CodeCoverage.Domain.Entities.State", "reportPath": "CodeCoverage.Domain_State.htm", "coveredLines": 6, "uncoveredLines": 3, "coverableLines": 9, "totalLines": 22, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [66.6], "branchCoverageHistory": [] },
     ]},
   {
-    "name": "CodeCoverage.Domain.Tests",
-    "classes": [
-      { "name": "CodeCoverage.Domain.Tests.Entities.PersonTests", "reportPath": "CodeCoverage.Domain.Tests_PersonTests.htm", "coveredLines": 8, "uncoveredLines": 0, "coverableLines": 8, "totalLines": 24, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
-      { "name": "CodeCoverage.Domain.Tests.Entities.StateTests", "reportPath": "CodeCoverage.Domain.Tests_StateTests.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 17, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
-    ]},
-  {
     "name": "CodeCoverage.Prompt",
     "classes": [
       { "name": "CodeCoverage.Prompt.Dto.CityDto", "reportPath": "CodeCoverage.Prompt_CityDto.htm", "coveredLines": 0, "uncoveredLines": 13, "coverableLines": 13, "totalLines": 33, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
       { "name": "CodeCoverage.Prompt.Dto.PersonDto", "reportPath": "CodeCoverage.Prompt_PersonDto.htm", "coveredLines": 14, "uncoveredLines": 3, "coverableLines": 17, "totalLines": 39, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [82.3], "branchCoverageHistory": [] },
       { "name": "CodeCoverage.Prompt.Dto.StateDto", "reportPath": "CodeCoverage.Prompt_StateDto.htm", "coveredLines": 0, "uncoveredLines": 9, "coverableLines": 9, "totalLines": 22, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
       { "name": "CodeCoverage.Prompt.Program", "reportPath": "CodeCoverage.Prompt_Program.htm", "coveredLines": 0, "uncoveredLines": 15, "coverableLines": 15, "totalLines": 36, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [] },
-    ]},
-  {
-    "name": "CodeCoverage.Prompt.Tests",
-    "classes": [
-      { "name": "CodeCoverage.Prompt.Tests.Dto.PersonDtoTests", "reportPath": "CodeCoverage.Prompt.Tests_PersonDtoTests.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 17, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [] },
     ]},
 ];
 

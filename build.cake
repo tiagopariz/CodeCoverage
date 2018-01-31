@@ -53,7 +53,7 @@ Task("OpenCover")
             outputFile,
             openCoverSettings
                 .WithFilter("+[CodeCoverage*]*")
-                .WithFilter("-[CodeCoverage.Tests]*")
+                .WithFilter("-[CodeCoverage.*.Tests]*")
         );
     });
 
